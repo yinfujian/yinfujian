@@ -10,6 +10,7 @@ public class MainTest {
             System.out.println(TargetJdk8.class.getAnnotation(RepeatableAnnotation.class).value()[1].values());
             System.out.println(TargetJdk8.class.getAnnotation(RepeatableAnnotation.class).value()[2].number());
             System.out.println(TargetJdk8.class.getAnnotation(RepeatableAnnotation.class).value()[3].number());
+
         }
     }
 }
